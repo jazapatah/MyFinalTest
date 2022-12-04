@@ -2,6 +2,31 @@
     width: 4.5rem;
     height: auto;
 }
+/* Preparo el Hero Image */
+.contenedor {
+    display: grid;
+    grid-template-columns: repeat(10,1fr);
+    grid-template-rows: repeat(10,auto);
+}
+#corridor, #spell, #beasts {
+    width: 98.74vw;
+    grid-column: 1/10;
+    grid-row: 1/10;
+}
+#overlay {
+    grid-column: 1/11;
+    grid-row: 1/11;
+    background-color:darkslategrey;
+    opacity: 0.5;
+    z-index: 7;
+}
+.texto {
+    z-index: 7;
+    font-size: 2rem;
+    font-size: 2rem;
+    grid-column: 2/9;
+    grid-row: 5/7;
+}
 footer {
     display: flex;
     justify-content: space-evenly;
