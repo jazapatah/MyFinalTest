@@ -8,7 +8,7 @@
     grid-template-columns: repeat(10,1fr);
     grid-template-rows: repeat(10,auto);
 }
-#corridor, #spell, #beasts {
+#hogwarts, #spell, #beasts {
     width: 98.74vw;
     grid-column: 1/10;
     grid-row: 1/10;
